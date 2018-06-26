@@ -30,7 +30,7 @@ public class MockarooDataValidation {
 	Set<String> citySet;
 
 	
-/*
+
 	@BeforeClass
 	public void setUp() {
 		WebDriverManager.chromedriver().setup();
@@ -128,7 +128,7 @@ public class MockarooDataValidation {
 	public void download() throws InterruptedException {
 		Thread.sleep(3000);
 		driver.findElement(By.xpath("//button[@id='download']")).click();
-	}*/
+	}
 	@Test (priority=15)
 	public void checkingFirstLineAndSize() throws IOException {
 		// 18 checking if the first line of the file matches with the selected
